@@ -24,8 +24,8 @@ module.exports = function (obj) {
 
   // events setter.
 
-  obj.__defineSetter__('_events', function () {
-    this.__events = {};
+  obj.__defineSetter__('_events', function (val) {
+    this.__events = val;
   });
 
 };
