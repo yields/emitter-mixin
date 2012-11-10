@@ -28,4 +28,5 @@ module.exports = function (obj) {
     this.__events = val;
   });
 
+  return obj;
 };

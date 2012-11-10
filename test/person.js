@@ -27,3 +27,10 @@ describe('Person constructor', function () {
     person.constructor.should.equal(Person);
   })
 })
+
+describe('emitter()', function () {
+  it('should return the given `obj`', function () {
+    var obj = new Person();
+    emitter(obj).should.be.instanceOf(Person);
+  })
+})
