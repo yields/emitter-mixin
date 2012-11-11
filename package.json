@@ -1,6 +1,6 @@
 {
   "name": "emitter-mixin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Node's EventEmitter mixin",
   "main": "y",
   "scripts": {
